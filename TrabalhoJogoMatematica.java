@@ -30,7 +30,7 @@ public class TrabalhoJogoMatematica {
 				System.out.print("Selecione a opcao a cima: ");
 				int nivel = sc.nextInt();
 
-				while (tentativa > 0) {
+				while (tentativa > -1) {
 					if (nivel == 1) {
 						for (int i=1; i<=10; i++) {	
 							int num1 = ra.nextInt(100);
