@@ -55,11 +55,11 @@ public class TrabalhoJogoMatematica {
 								System.out.println("Correto!!!!!\n");
 								pontuacao++;
 							} else {
-								System.out.println("Errado!!! Resposta Correta é: "+respostaCorreta);
+								System.out.println("Errado!!! Resposta Correta Ã©: "+respostaCorreta);
 								tentativa--;
 							}
 
-							if (tentativa == 0) {
+							if (tentativa == -1) {
 								System.out.println("Voce errou de mais HAHHAHAHAHA\n");
 								break;
 							}
@@ -80,11 +80,11 @@ public class TrabalhoJogoMatematica {
 								System.out.println("Correto!!!!!\n");
 								pontuacao++;
 							} else {
-								System.out.println("Errado!!! Resposta Correta é: "+respostaCorreta);
+								System.out.println("Errado!!! Resposta Correta Ã©: "+respostaCorreta);
 								tentativa--;
 							}
 
-							if (tentativa == 0) {
+							if (tentativa == -1) {
 								System.out.println("Voce errou de mais HAHHAHAHAHA\n");
 								break;
 							}
@@ -110,11 +110,11 @@ public class TrabalhoJogoMatematica {
 								System.out.println("Correto!!!!!\n");
 								pontuacao++;
 							} else {
-								System.out.println("Errado!!! Resposta Correta é: "+respostaCorreta);
+								System.out.println("Errado!!! Resposta Correta Ã©: "+respostaCorreta);
 								tentativa--;
 							}
 
-							if (tentativa == 0) {
+							if (tentativa == -1) {
 								System.out.println("Voce errou de mais HAHHAHAHAHA\n");
 								break;
 							}
@@ -166,16 +166,16 @@ public class TrabalhoJogoMatematica {
 								System.out.println("Correto!!!!!\n");
 								pontuacao++;
 							} else {
-								System.out.println("Errado!!! Resposta Correta é: "+respostaCorreta);
+								System.out.println("Errado!!! Resposta Correta Ã©: "+respostaCorreta);
 								tentativa--;
 							}
 
-							if (tentativa == 0) {
+							if (tentativa == -1) {
 								System.out.println("Voce errou de mais HAHHAHAHAHA\n");
 								break;
 							}
 						}
-						System.out.println("Sua pontuação: \n\n"+pontuacao);
+						System.out.println("Sua pontuaÃ§Ã£o: \n\n"+pontuacao);
 						break;
 					}
 				}
